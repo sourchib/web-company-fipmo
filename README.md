@@ -9,8 +9,8 @@ SET UP VIRTUALHOST APACHE
 1. masuk /etc/apache2/site-available
 2. buat virtualhost baru nano name.conf
 3. Masukkan config berikut :
-<li>
-  <p>
+<ul>
+  <li>
   <IfModule mod_ssl.c>
 <VirtualHost *:443>
         ServerName domain.tld
@@ -33,8 +33,8 @@ SSLCertificateKeyFile /etc/letsencrypt/live/fipmo.id/privkey.pem
     AllowOverride All
     Require all granted
 </Directory>
-</p>
-</li
+</li>
+</ul>
 4. Restart service apache2.
 
 USERNAME DAN PASSWORD:

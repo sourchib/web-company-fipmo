@@ -4,7 +4,7 @@ CARA INSTALLASI via VPS Linux LAMP.
 2. Import database "fipmoweb-export.sql" ke dalam database yang telah Anda buat.
 3. Buka file "database.php" di folder "application/config".
 4. Sesuaikan nama database, username dan password database yang Anda miliki.
-
+5. install phpversion 5.6 or 7.4
 SET UP VIRTUALHOST APACHE
 1. masuk /etc/apache2/site-available
 2. buat virtualhost baru nano name.conf
